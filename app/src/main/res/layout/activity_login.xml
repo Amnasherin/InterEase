@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="230dp"
+            android:fontFamily="@font/gmarketsansbold"
+            android:text="Hi,\n \nWelcome Back!"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/idText"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="E-mail"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:paddingLeft="18dp"
+            android:layout_marginTop="25dp"
+            android:textSize="11dp"
+            android:textColor="@color/iron"/>
+
+        <EditText
+            android:id="@+id/pwText"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:hint="Password"
+            android:paddingLeft="18dp"
+            android:inputType="textPassword"
+            android:textSize="11dp"
+            android:textColor="@color/iron"
+            tools:ignore="Deprecated" />
+
+        <Button
+            android:id="@+id/signInBtn"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="1dp"
+            android:text="Sign In"
+            android:textColor="@color/pearlriver"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:textSize="12dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/iron"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/forgetPasswordText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Forgot Password?"
+            android:textColor="@color/iron"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:textSize="10dp"
+            android:layout_marginTop="6dp" />
+
+        <EditText
+            android:id="@+id/resetEmailText"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Enter your email to reset password"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:paddingLeft="18dp"
+            android:textSize="10dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/iron"
+            android:visibility="gone"
+            tools:ignore="Deprecated"/>
+
+        <Button
+            android:id="@+id/resetPasswordBtn"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Reset"
+            android:textColor="@color/pearlriver"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:textSize="11dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/iron"
+            android:visibility="gone"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Don't have an account?"
+            android:textColor="@color/iron"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:textSize="12dp"
+            android:layout_marginTop="38dp" />
+
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text="Sign up"
+            android:textColor="@color/pearlriver"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:textSize="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/iron"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+</LinearLayout>

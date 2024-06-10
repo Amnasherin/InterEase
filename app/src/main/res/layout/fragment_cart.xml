@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cart_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_box">
+    <ImageButton
+        android:id="@+id/back_button2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back" />
+    <!-- Container for all details except the BUY button -->
+    <LinearLayout
+        android:id="@+id/details_container"
+        android:layout_width="377dp"
+        android:layout_height="534dp"
+        android:layout_above="@id/buy"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/border_background"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <!-- Your existing views -->
+
+
+        <!-- Center "My Cart" horizontally -->
+        <TextView
+            android:id="@+id/Titlecart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/gmarketsansbold"
+            android:text="My Cart"
+            android:textColor="@color/iron"
+            android:textSize="20sp" />
+
+        <TableLayout
+            android:id="@+id/cart_items_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+        <!-- Center "Total: ₹0" horizontally -->
+        <TextView
+            android:id="@+id/total_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/gmarketsansbold"
+            android:text="Total: ₹0"
+            android:textColor="@color/iron"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- BUY button -->
+<Button
+android:id="@+id/buy"
+android:layout_width="150dp"
+android:layout_height="40dp"
+android:layout_alignParentBottom="true"
+android:layout_centerHorizontal="true"
+android:layout_marginBottom="50dp"
+android:text="BUY"
+android:backgroundTint="@color/iron"
+android:textColor="@color/pearlriver"
+android:fontFamily="@font/gmarketsansmedium"
+android:textSize="12sp"
+android:background="@drawable/rounded_button"
+    />
+    </RelativeLayout>

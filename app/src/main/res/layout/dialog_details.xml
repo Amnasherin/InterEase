@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sofa5" />
+
+    <TextView
+        android:id="@+id/detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_image"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/gmarketsansmedium"
+        android:text="This is a detailed description of the sofa."
+        android:textColor="@color/iron"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/detail_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/iron"
+        android:text="Close"
+        android:textColor="@color/pearlriver" />
+
+</RelativeLayout>

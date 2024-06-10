@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gmarketsansbold"
+        android:text="Admin Home"
+        android:textColor="@color/iron"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="40dp" />
+
+    <Button
+        android:text="USER MANAGEMENT"
+        android:backgroundTint="@color/pearlriver"
+        android:id="@+id/user_management_button"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/iron"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/gmarketsansbold" />
+
+    <Button
+        android:id="@+id/order_management_button"
+        android:backgroundTint="@color/pearlriver"
+        android:layout_gravity="center"
+        android:textColor="@color/iron"
+        android:fontFamily="@font/gmarketsansbold"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:text="ORDER MANAGEMENT"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/review_management_button"
+        android:backgroundTint="@color/pearlriver"
+        android:layout_gravity="center"
+        android:textColor="@color/iron"
+        android:fontFamily="@font/gmarketsansbold"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:text="MANAGE REVIEW"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:text="LOGOUT"
+        android:backgroundTint="@color/iron"
+        android:id="@+id/logout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/pearlriver"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/gmarketsansbold"
+        android:textSize="12dp" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
+

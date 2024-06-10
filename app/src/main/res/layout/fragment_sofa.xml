@@ -1,0 +1,213 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SofaFragment"
+    android:background="@drawable/login_box">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-185dp">
+        <ImageButton
+            android:id="@+id/back_button5"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="15dp"
+            android:adjustViewBounds="true"
+            android:background="@color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back" />
+        <RelativeLayout
+            android:id="@+id/types"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/back_button5"
+            android:layout_centerHorizontal="true">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bed_content">
+                <ImageButton
+                    android:id="@+id/sofa1"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/sofa5"
+                    android:stateListAnimator="@null"
+                    android:scaleType="fitCenter"
+                    android:background="@color/transparent" />
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sofa1"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/gmarketsansbold"
+                    android:text="Sofa 1"
+                    android:textColor="@color/iron" />
+
+                <ImageButton
+                    android:id="@+id/wishlist1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_wishlist_unselected" />
+                <Button
+                    android:id="@+id/cart1"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/name1"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="14dp"
+                    android:backgroundTint="@color/iron"
+                    android:fontFamily="@font/gmarketsansmedium"
+                    android:text="Add TO CART"
+                    android:textColor="@color/pearlriver"
+                    android:textSize="12dp" />
+
+                <Button
+                    android:id="@+id/review1"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/cart1"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:backgroundTint="@color/iron"
+                    android:fontFamily="@font/gmarketsansmedium"
+                    android:text="Reviews"
+                    android:textColor="@color/pearlriver"
+                    android:textSize="12dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name1"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/gmarketsansbold"
+                    android:text="Price : ₹40000"
+                    android:textColor="@color/iron" />
+
+                <Button
+                    android:id="@+id/details1"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/review1"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:backgroundTint="@color/iron"
+                    android:fontFamily="@font/gmarketsansmedium"
+                    android:text="Details"
+                    android:textColor="@color/pearlriver"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/table_content"
+                android:layout_toRightOf="@+id/bed_content">
+                <ImageButton
+                    android:id="@+id/sofa6"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/sofa6"
+                    android:stateListAnimator="@null"
+                    android:scaleType="fitCenter"
+                    android:background="@color/transparent" />
+                <TextView
+                    android:id="@+id/name6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sofa 2"
+                    android:textColor="@color/iron"
+                    android:layout_below="@id/sofa6"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/gmarketsansbold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp" />
+                <Button
+                    android:text="Add TO CART"
+                    android:backgroundTint="@color/iron"
+                    android:id="@+id/cart6"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@id/name6"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/pearlriver"
+                    android:fontFamily="@font/gmarketsansmedium"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name6"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/gmarketsansbold"
+                    android:text="Price : ₹30000"
+                    android:textColor="@color/iron" />
+
+                <ImageButton
+                    android:id="@+id/wishlist2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_wishlist_unselected" />
+                <Button
+                    android:id="@+id/review2"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/cart6"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:backgroundTint="@color/iron"
+                    android:fontFamily="@font/gmarketsansmedium"
+                    android:text="Reviews"
+                    android:textColor="@color/pearlriver"
+                    android:textSize="12dp" />
+                <Button
+                    android:id="@+id/details2"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/review2"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:backgroundTint="@color/iron"
+                    android:fontFamily="@font/gmarketsansmedium"
+                    android:text="Details"
+                    android:textColor="@color/pearlriver"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

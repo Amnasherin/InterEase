@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "714613706121",
+    "project_id": "intereaseapp-420f7",
+    "storage_bucket": "intereaseapp-420f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714613706121:android:469135f2650b1556f26558",
+        "android_client_info": {
+          "package_name": "com.example.InterEaseApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoNlTi-SsMpvTp7ukwxOvRyjdnxdbqsus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
